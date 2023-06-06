@@ -78,7 +78,7 @@ body {
   cursor: pointer;
 }
 
-@media (width <= 500px) {
+@media (max-width: 500px) {
   .categories li {
     width: 100%;
   }
