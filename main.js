@@ -1,15 +1,13 @@
 
-const categoriesDiv = document.querySelector(".categories");
-const items = document.querySelectorAll(".categories li");
+const categoriesListItems = document.querySelectorAll(".categories li");
 
-items.forEach((item) => {
+categoriesListItems.forEach((item) => {
     item.addEventListener("click", (e) => {
         e.preventDefault();
-        if(item.classList.contains("success")) {
+        if(item.classList.contains("success")){
             item.classList.remove("success");
         } else {
             item.classList.add("success");
         }
-    });
+    })
 })
-
