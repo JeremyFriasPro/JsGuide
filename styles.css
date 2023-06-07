@@ -80,7 +80,7 @@ body {
 
 @media (max-width: 500px) {
   .categories li {
-    width: 100%;
+    width: 90%;
   }
 }
 
